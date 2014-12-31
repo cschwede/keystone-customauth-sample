@@ -1,6 +1,9 @@
 Openstack Keystone custom password check example
 ================================================
 
+
+[![Build Status](https://travis-ci.org/cschwede/keystone-customauth-sample.svg)](https://travis-ci.org/cschwede/keystone-customauth-sample)
+
 Example Keystone middleware to use external password authentication in Keystone.
 This example actually doesn't check the password, but grants access to everyone
 during Happy Hour.
